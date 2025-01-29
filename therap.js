@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     cardData.forEach(data => {
         const card = document.createElement("div");
-        card.className = `${data.class} flex items-center gap-3 p-6 border-b-3 border-red-50`;
+        card.className = `${data.class} flex items-center gap-3 p-6 border-b-3 w-[400px] border-red-50`;
 
         card.innerHTML = `
             <i class="fa-brands ${data.icon} w-16 h-16 p-6 rounded-4xl bg-stone-50 text-sky-300
