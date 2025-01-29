@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     cardData.forEach(data => {
         const card = document.createElement("div");
-        card.className = "bg-indigo-100 w-[500px] h-auto p-5 rounded-2xl shadow-md";
+        card.className = "bg-indigo-100 w-[350px] md:w-[500px] h-auto p-5 rounded-2xl shadow-md";
         
         card.innerHTML = `
             <h3 class="uppercase text-indigo-700 font-serif text-xl">${data.title}</h3>
